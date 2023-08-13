@@ -1,0 +1,156 @@
+.tovar__body{
+    padding-bottom: 50px;
+    margin-top: -70px;
+    @media screen and (max-width: 576px) {
+        margin-top: -110px;
+        
+    }
+    .close{
+        margin-left: -163px;
+        margin-bottom: 10px;
+        svg{
+            background: #90d92a;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 35px;
+            padding: 5px;
+            margin-left: 1490px;
+            margin-bottom: -190px;
+            @media screen and (max-width: 576px) {
+                margin-left: 685px;
+                margin-top: 65px;
+                
+            }
+        }
+        
+      
+    }
+
+}
+.tovar__container{
+    padding-top: 120px;
+    padding-left: 160px;
+    .tovar{
+        @media screen and (max-width: 576px) {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            width: 552px;
+            margin-left: -148px;
+            margin-top: 30px;
+        }
+        display: flex;
+        background: #fff;
+        padding: 40px;
+        width: 1200px;
+        border-radius: 20px;
+        margin-right: 120px;
+        .tovar__texts{
+            @media screen and (max-width: 576px){
+                text-align: center;
+            }
+            padding-top: 10px;
+            h2{
+                @media screen and (max-width: 576px){
+                    font-size: 20px;
+                    width: 472px;
+                    line-height: 30px;
+                }
+                font-family: 'Montserrat-Bold';
+                font-size: 25px;
+                width: 515px;
+                margin-bottom: 1rem;
+            }
+            p{
+                @media screen and (max-width: 576px){
+                    font-size: 12px;
+                    margin-top: -5px;
+                    width: 472px;
+                }
+                width: 515px;
+                font-family: 'Montserrat-Regular';
+                font-size: 15px;
+            }
+    
+            .contact{
+                @media screen and (max-width: 576px){
+                    font-size: 12px;
+                    height: 30px;
+                    width: 150px;
+                    margin-left: 160px;
+                    margin-top: 5px;
+                }
+                align-items: center;
+                background: #90d92a;
+                border-radius: 20px;
+                color: #fff;
+                display: block;
+                display: flex;
+                font-family: 'Montserrat-SemiBold';
+                border: 0;
+                font-size: 15px;
+                height: 50px;
+                justify-content: center;
+                margin-top: 100px;
+                text-decoration: none;
+                width: 200px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+        img{
+            margin-left: 100px;
+            width: 533px;
+            height: 400px;
+            @media screen and (max-width: 576px){
+                width: 300px;
+                height: 250px;
+                margin-left: -10px;
+            }
+        }
+
+    }
+ 
+
+    
+}
+
+.tovar__info{
+    margin-left: 160px;
+    margin-top: 30px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-right: 120px;
+    width: 1200px;
+    @media screen and (max-width: 576px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 552px;
+        margin-left: 12px;
+        
+    }
+   
+    h2{
+        font-family: 'Montserrat-Bold';
+        font-size: 25px;
+        @media screen and (max-width: 576px) {
+            font-size: 20px;
+            width: 321.6px;
+            margin-left: -148px;
+        }
+    }
+    p{
+        @media screen and (max-width: 576px) {
+            font-size: 12px;
+            width: 472px;
+        }
+        font-family: 'Montserrat-Regular';
+        font-size: 15px;
+        margin-top: 20px;
+        width: 1096px;
+    }
+}

@@ -1,0 +1,148 @@
+.navbar {
+  padding-top: 25px;
+  margin-left: 122px;
+  margin-right: 220px;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 1440px) {
+  .navbar {
+    margin-right: 145px;
+  }
+}
+.navbar .nav__responsive {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.navbar .nav__responsive .nav-logo {
+  margin-left: 20px;
+  width: 320px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  .navbar .nav__responsive .nav-logo {
+    margin-left: -200px;
+    margin-right: 260px;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+  }
+}
+.navbar .nav__responsive .btn {
+  border: 1px solid #fff;
+  border-radius: 30%;
+  height: 40px;
+  box-shadow: 0 0 6px 3px #d3d3d3;
+  cursor: pointer;
+  display: none;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  .navbar .nav__responsive .btn {
+    display: block;
+    margin-top: -12px;
+  }
+}
+.navbar .nav__responsive .btn img {
+  margin-top: -3px;
+}
+.navbar .nav__responsive .offcanvas {
+  width: 297px;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-header {
+  width: 297px;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-header img {
+  margin-left: -38px;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-body {
+  width: 297.11px;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-body hr {
+  border: 2px solid #90d92a;
+  margin-top: -15px;
+  opacity: 1;
+  width: 268.11px;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-body .nav-link {
+  color: #000;
+  margin-left: 5px;
+  color: #000;
+  font-family: "Montserrat-Medium";
+  margin-top: 5px;
+  gap: 0;
+  padding: 0;
+}
+.navbar .nav__responsive .offcanvas .offcanvas-body .active {
+  color: red;
+}
+.navbar #toggler, .navbar label {
+  display: none;
+}
+.navbar .nav__menu {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  .navbar .nav__menu {
+    display: none;
+  }
+}
+.navbar .nav__menu .nav {
+  margin-left: -10px;
+}
+.navbar .nav__menu .nav .nav-item .nav-link {
+  transition: all 500ms;
+  padding: 0;
+  color: #6e7284;
+  cursor: pointer;
+  font-family: "Montserrat-Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  list-style: none;
+  margin-right: 20px;
+  transition: 0.2s;
+}
+.navbar .nav__menu .nav .nav-item .nav-link:hover {
+  transition: 0.2s;
+  color: #fa1e34;
+}
+.navbar .nav__menu .nav .nav-item .nav-link:focus {
+  transition: 0.2s;
+  color: #fa1e34;
+}
+.navbar .nav__menu .nav .nav-item .nav-link:active {
+  transition: 0.2s;
+  color: #fa1e34;
+}
+.navbar .nav__menu .nav .nav-item .active {
+  color: #fa1e34;
+  transition: 0.2s;
+}
+.navbar .nav__menu .call__number {
+  display: flex;
+  align-items: center;
+}
+.navbar .nav__menu .call__number p {
+  margin-left: 8px;
+  margin-top: 16px;
+  color: #36383f;
+  display: flex;
+  font-family: "Montserrat-Medium";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 18px;
+  margin-right: 20px;
+}
+.navbar .nav__menu .by__work {
+  color: #699629;
+  font-family: "Montserrat-Medium";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: -2px;
+  text-decoration: none;
+}/*# sourceMappingURL=Menu.css.map */

@@ -1,0 +1,1843 @@
+main {
+  margin-left: -20px;
+  padding-bottom: 60px;
+  overflow-x: hidden;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main {
+    overflow-x: hidden;
+  }
+}
+main .main__menu__cards {
+  margin-left: 152px;
+}
+main .main__menu__cards .vaccine__cards {
+  z-index: 10;
+  padding-top: 120px;
+  width: 1230px;
+  margin-top: -120px;
+  transition: all 500ms;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards {
+    margin-left: -20px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .main__menu__cards .vaccine__cards {
+    margin-left: -100px;
+  }
+}
+main .main__menu__cards .vaccine__cards h2 {
+  color: #699629;
+  font-family: "Montserrat-Bold";
+  font-size: 31px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+main .main__menu__cards .vaccine__cards .slick-arrow {
+  display: none;
+}
+main .main__menu__cards .vaccine__cards .slick-prev {
+  background: url(../imgs/left2.svg);
+  margin-left: -50px;
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 426px) {
+  main .main__menu__cards .vaccine__cards .slick-prev {
+    margin-left: 25px;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+  }
+}
+main .main__menu__cards .vaccine__cards .slick-prev::before {
+  content: "";
+  display: none;
+}
+main .main__menu__cards .vaccine__cards .slick-next {
+  background: url(../imgs/right2.svg);
+  width: 56px;
+  height: 56px;
+  background-repeat: no-repeat;
+  margin-right: -35px;
+}
+@media screen and (max-width: 426px) {
+  main .main__menu__cards .vaccine__cards .slick-next {
+    margin-right: -191px;
+    margin-left: -30px;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 577px) {
+  main .main__menu__cards .vaccine__cards .slick-next {
+    margin-right: -356px;
+    z-index: 99;
+    position: absolute;
+    width: 100%;
+  }
+}
+main .main__menu__cards .vaccine__cards .slick-next::before {
+  content: "";
+  display: none;
+}
+main .main__menu__cards .vaccine__cards .Provak .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak .card .card__tovar {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak2 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak2 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak2 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak3 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak3 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak3 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak4 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak4 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak4 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak5 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak5 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak5 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak6 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak6 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak6 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak7 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak7 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak7 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak8 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak8 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak8 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak9 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak9 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__tovar {
+  width: 260px;
+  height: 320px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__tovar {
+    width: 260px;
+    height: 320px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__menu {
+  margin-top: -35px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak9 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card {
+  border: 0;
+  border-radius: 15px;
+  width: 290px;
+  height: 510px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak10 .card {
+    width: 361.8px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak10 .card .card__tovar {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__logo {
+  position: absolute;
+  background: #9dff00;
+  height: 33px;
+  margin-left: 168px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 116px;
+  display: flex;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__logo {
+    margin-left: 240px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__logo .item {
+  border: 7px solid transparent;
+  border-top-color: #9dff00;
+  content: "";
+  left: 80px;
+  position: absolute;
+  top: 26px;
+  transform: rotate(135deg);
+  margin-left: 20px;
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__logo .card__vector {
+  width: 90px;
+  height: 34px;
+  margin-top: -1px;
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__tovar {
+  width: 260px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-bottom: 40px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__menu .card__tovar {
+    margin-left: 40px;
+  }
+  main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__menu .card-btn {
+    margin-left: 40px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__menu p {
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: -16px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__menu p {
+    width: 279px;
+    margin-left: 27px;
+  }
+}
+main .main__menu__cards .vaccine__cards .Provak10 .card .card-body .card__menu .card-btn {
+  background: #9fd14f;
+  border-radius: 10px;
+  padding: 20px 77px;
+  color: #fff;
+  display: block;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  border: 0;
+  margin-left: -5px;
+}
+main .collapse__title {
+  color: #699629;
+  font-family: "Montserrat-Bold";
+  font-size: 31px;
+  margin-top: 50px;
+  margin-bottom: -25px;
+  margin-left: 160px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .collapse__title {
+    width: 401.7px;
+    margin-left: 32px;
+  }
+}
+main .collapses {
+  border: 0;
+  margin-top: -30px;
+  margin-left: 160px;
+  display: flex;
+  gap: 104px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 576px) {
+  main .collapses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 19px;
+  }
+}
+main .collapses .left__items {
+  width: 550px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .collapses .left__items {
+    width: 550.6px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .collapses .left__items {
+    width: 401.6px;
+  }
+}
+main .collapses .left__items .item {
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .left__items .item .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .left__items .item .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .left__items .item .item1 {
+  border-radius: 10px;
+}
+main .collapses .left__items .item2 {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .left__items .item2 .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .left__items .item2 .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .left__items .item2 .accordion-button::after {
+  content: "";
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+main .collapses .left__items .item2 .item1 {
+  border-radius: 10px;
+}
+main .collapses .left__items .item3 {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .left__items .item3 .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .left__items .item3 .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .left__items .item3 .accordion-button::after {
+  content: "";
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+main .collapses .left__items .item3 .item1 {
+  border-radius: 10px;
+}
+main .collapses .right__items {
+  width: 550px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .collapses .right__items {
+    width: 550.6px;
+    margin-top: -95px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .collapses .right__items {
+    width: 401.6px;
+    margin-top: -95px;
+  }
+}
+main .collapses .right__items .item4 {
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .right__items .item4 .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .right__items .item4 .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .right__items .item4 .accordion-button::after {
+  content: "";
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+main .collapses .right__items .item4 .item1 {
+  border-radius: 10px;
+}
+main .collapses .right__items .item5 {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .right__items .item5 .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .right__items .item5 .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .right__items .item5 .accordion-button::after {
+  content: "";
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+main .collapses .right__items .item5 .item1 {
+  border-radius: 10px;
+}
+main .collapses .right__items .item6 {
+  margin-top: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+main .collapses .right__items .item6 .accordion-button {
+  height: 59.5px;
+  background: #90d92a;
+  cursor: pointer;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  padding: 1em;
+  transition: 0.3s;
+  color: #fff;
+  border-radius: 10px;
+}
+main .collapses .right__items .item6 .accordion-button:hover {
+  background: #7fb731;
+}
+main .collapses .right__items .item6 .accordion-button::after {
+  content: "";
+  font-size: 25px;
+  text-align: center;
+  transition: all 0.35s;
+  box-sizing: border-box;
+}
+main .collapses .right__items .item6 .item1 {
+  border-radius: 10px;
+}
+main .main__about {
+  margin-left: 160px;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__about {
+    margin-left: 30px;
+    margin-top: -30px;
+  }
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__about .about__head {
+    display: flex;
+    flex-direction: column;
+  }
+  main .main__about .about__head .about__info {
+    width: 401.6px;
+  }
+}
+main .main__about .about__head .about__title {
+  color: #699629;
+  font-family: "Montserrat-Bold";
+  font-size: 31px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main .main__about .about__head .about__info {
+  width: 780px;
+  color: #36383f;
+  font-family: "Montserrat-Regular";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+  width: 780px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__about .about__head .about__info {
+    width: 552px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .main__about .about__head .about__info {
+    width: 401.6px;
+  }
+}
+main .main__about a {
+  color: #0a4ecb;
+  font-family: "Montserrat-Medium";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+  margin-top: 55px;
+  text-decoration: none;
+  margin-left: 320px;
+  margin-bottom: -50px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .main__about a {
+    margin-left: -555px;
+    margin-top: 125px;
+    margin-bottom: -100px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .main__about a {
+    margin-left: -400px;
+    margin-top: 175px;
+    margin-bottom: -100px;
+  }
+}
+main .thumb__menu {
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  margin-top: -14.5px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .thumb__menu {
+    flex-direction: column;
+  }
+}
+main .thumb__menu .thumb__swiper {
+  width: 580px;
+  margin-left: 160px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .thumb__menu .thumb__swiper {
+    width: 565px;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .thumb__menu .thumb__swiper {
+    width: 401.6px;
+    margin-top: 80px;
+    margin-left: 20px;
+  }
+}
+main .thumb__menu .thumb__swiper .swiper-button-next {
+  background-image: url(../imgs/right3.svg);
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  margin-top: -13px;
+  margin-right: 13px;
+}
+main .thumb__menu .thumb__swiper .swiper-button-next:after {
+  content: "";
+  display: none;
+}
+main .thumb__menu .thumb__swiper .swiper-button-prev {
+  background-image: url(../imgs/left3.svg);
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  margin-top: -10px;
+  margin-left: 13px;
+}
+@media screen and (max-width: 576px) {
+  main .thumb__menu .thumb__swiper .swiper-button-prev {
+    margin-top: -15px;
+  }
+}
+main .thumb__menu .thumb__swiper .swiper-button-prev:after {
+  content: "";
+  display: none;
+}
+main .thumb__menu .thumb__swiper .hen__koke {
+  height: 389px;
+  width: 100%;
+  background: cover;
+  border-radius: 12px;
+}
+main .thumb__menu .thumb__swiper .hen__koko {
+  margin-top: 10px;
+  border-radius: 12px;
+  background: cover;
+  height: 87px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  width: 274.6;
+  width: 100%;
+}
+main .thumb__info {
+  margin-top: 16px;
+}
+main .thumb__info .thumb__pr {
+  width: 596px;
+  height: 480px;
+  height: 485px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+@media (min-width: 0) and (max-width: 577px) {
+  main .thumb__info .thumb__pr {
+    width: 552px;
+    height: 388px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .thumb__info .thumb__pr {
+    width: 401.6px;
+    height: 596px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .our__services {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: -21px;
+  }
+}
+main .our__services .service__title {
+  color: #699629;
+  font-family: "Montserrat-Bold";
+  font-size: 31px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: left;
+  margin-left: 150px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .our__services .service__title {
+    margin-left: 40px;
+  }
+}
+main .our__services .service__quest {
+  color: #699629;
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  margin-left: 150px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .our__services .service__quest {
+    margin-left: 35px;
+  }
+}
+main .our__services .services__cards {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 40px;
+  gap: 20px;
+  padding-bottom: 70px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .our__services .services__cards {
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  main .our__services .services__cards .card1 {
+    margin-bottom: 10px;
+  }
+  main .our__services .services__cards .card2 {
+    margin-bottom: 10px;
+  }
+  main .our__services .services__cards .card3 {
+    margin-bottom: 10px;
+  }
+}
+main .our__services .services__cards .card1 {
+  position: relative;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 340px;
+  transition: 0.5s;
+  width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .our__services .services__cards .card1 img {
+  margin-top: 6px;
+  margin-bottom: 20px;
+  width: 60px;
+}
+main .our__services .services__cards .card1 .card__title1 {
+  color: #76c000;
+  font-size: 21px;
+  text-align: center;
+  width: 335px;
+  margin-bottom: 8px;
+}
+main .our__services .services__cards .card1 p {
+  color: #1d1e22;
+  font-family: "Montserrat-Medium";
+  font-size: 12px;
+  text-align: center;
+  width: 335px;
+}
+main .our__services .services__cards .card1 .card__number1 {
+  position: absolute;
+  align-items: center;
+  background: #76c000;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  font-size: 17px;
+  height: 45px;
+  justify-content: center;
+  width: 45px;
+  margin-top: 347px;
+}
+main .our__services .services__cards .card1:hover {
+  box-shadow: 0 0 17px 10px #76c000;
+  transform: scale(1.02);
+}
+main .our__services .services__cards .card2 {
+  position: relative;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 340px;
+  transition: 0.5s;
+  width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .our__services .services__cards .card2 img {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  width: 70px;
+}
+main .our__services .services__cards .card2 .card__title2 {
+  color: #76c000;
+  font-size: 21px;
+  text-align: center;
+  width: 335px;
+  margin-bottom: 8px;
+}
+main .our__services .services__cards .card2 p {
+  color: #1d1e22;
+  font-family: "Montserrat-Medium";
+  font-size: 12px;
+  text-align: center;
+  width: 335px;
+}
+main .our__services .services__cards .card2 .card__number2 {
+  position: absolute;
+  align-items: center;
+  background: #76c000;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  font-size: 17px;
+  height: 45px;
+  justify-content: center;
+  width: 45px;
+  margin-top: 347px;
+}
+main .our__services .services__cards .card2:hover {
+  box-shadow: 0 0 17px 10px #76c000;
+  transform: scale(1.02);
+}
+main .our__services .services__cards .card3 {
+  position: relative;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 340px;
+  transition: 0.5s;
+  width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .our__services .services__cards .card3 img {
+  margin-bottom: 20px;
+  width: 60px;
+}
+main .our__services .services__cards .card3 .card__title3 {
+  color: #76c000;
+  font-size: 21px;
+  text-align: center;
+  width: 335px;
+  margin-bottom: 8px;
+}
+main .our__services .services__cards .card3 p {
+  color: #1d1e22;
+  font-family: "Montserrat-Medium";
+  font-size: 12px;
+  text-align: center;
+  width: 335px;
+}
+main .our__services .services__cards .card3 .card__number3 {
+  position: absolute;
+  align-items: center;
+  background: #76c000;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  font-size: 17px;
+  height: 45px;
+  justify-content: center;
+  width: 45px;
+  margin-top: 347px;
+}
+main .our__services .services__cards .card3:hover {
+  box-shadow: 0 0 17px 10px #76c000;
+  transform: scale(1.02);
+}
+main .our__services .services__cards .card4 {
+  position: relative;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  height: 340px;
+  transition: 0.5s;
+  width: 335px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .our__services .services__cards .card4 img {
+  margin-bottom: 20px;
+  width: 60px;
+}
+main .our__services .services__cards .card4 .card__title4 {
+  color: #76c000;
+  font-size: 21px;
+  text-align: center;
+  width: 335px;
+  margin-bottom: 8px;
+}
+main .our__services .services__cards .card4 p {
+  color: #1d1e22;
+  font-family: "Montserrat-Medium";
+  font-size: 12px;
+  text-align: center;
+  width: 335px;
+}
+main .our__services .services__cards .card4 .card__number4 {
+  position: absolute;
+  align-items: center;
+  background: #76c000;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  font-size: 17px;
+  height: 45px;
+  justify-content: center;
+  width: 45px;
+  margin-top: 347px;
+}
+main .our__services .services__cards .card4:hover {
+  box-shadow: 0 0 17px 10px #76c000;
+  transform: scale(1.02);
+}
+main .spouncers__swiper {
+  width: 1150px;
+  height: 130px;
+  margin-left: 220px;
+  margin-bottom: 220px;
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .spouncers__swiper {
+    margin-left: 105px;
+    width: 266px;
+  }
+}
+@media (min-width: 427) and (max-width: 576px) {
+  main .spouncers__swiper {
+    margin-left: 105px;
+    width: 532px;
+  }
+}
+main .spouncers__swiper h2 {
+  color: #699629;
+  font-family: "Montserrat-Bold";
+  font-size: 31px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+  text-align: left;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .spouncers__swiper h2 {
+    width: 340px;
+    margin-left: -50px;
+    margin-bottom: 40px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .spouncers__swiper h2 {
+    width: 340px;
+    margin-left: -10px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 576px) {
+  main .spouncers__swiper .mySwiper {
+    margin-left: -43px;
+  }
+}
+@media screen and (max-width: 426px) {
+  main .spouncers__swiper .mySwiper {
+    margin-left: -3px;
+  }
+}
+main .spouncers__swiper .mySwiper .swiper-button-next {
+  background-image: url(../imgs/right3.svg);
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 99;
+  margin-top: -43px;
+  width: 100%;
+  margin-left: 1025px;
+  width: 38px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .spouncers__swiper .mySwiper .swiper-button-next {
+    margin-left: 204px;
+  }
+}
+@media (min-width: 0) and (max-width: 426px) {
+  main .spouncers__swiper .mySwiper .swiper-button-next {
+    margin-left: 195px;
+  }
+}
+main .spouncers__swiper .mySwiper .swiper-button-next::after {
+  display: none;
+}
+main .spouncers__swiper .mySwiper .swiper-button-prev {
+  background-image: url(../imgs/left3.svg);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  margin-left: 930px;
+  width: 38px;
+}
+@media (min-width: 0) and (max-width: 576px) {
+  main .spouncers__swiper .mySwiper .swiper-button-prev {
+    margin-left: 15px;
+  }
+}
+main .spouncers__swiper .mySwiper .swiper-button-prev::after {
+  display: none;
+  position: absolute;
+}
+main .spouncers__swiper .mySwiper .swiper-pagination {
+  display: none;
+}
+main .spouncers__swiper .zoe {
+  border-radius: 12px;
+}
+main .spouncers__swiper .zoe img {
+  height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  width: 256px;
+}
+main .spouncers__swiper .zoe2 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .zoe2 img {
+  height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .zoe3 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .zoe3 img {
+  height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .zoe4 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .zoe4 img {
+  height: 120px;
+  background: #fff;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .rice {
+  border-radius: 12px;
+}
+main .spouncers__swiper .rice a .wellrice {
+  background: #fff;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .rice2 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .rice2 a .wellrice {
+  background: #fff;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .rice3 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .rice3 a .wellrice {
+  background: #fff;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 5px;
+  width: 256px;
+}
+main .spouncers__swiper .rice4 {
+  border-radius: 12px;
+}
+main .spouncers__swiper .rice4 a .wellrice {
+  background: #fff;
+  border-radius: 10px;
+  height: 120px;
+  margin-left: 5px;
+  width: 256px;
+}/*# sourceMappingURL=Main.css.map */

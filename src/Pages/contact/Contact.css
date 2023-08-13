@@ -1,0 +1,235 @@
+.contacts h2 {
+  color: #7fb731;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+.contacts .number__cards {
+  width: 400px;
+  height: 219px;
+  border: 4px solid #76c000;
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 555px;
+}
+@media screen and (max-width: 426px) {
+  .contacts .number__cards {
+    margin-left: 13px;
+  }
+}
+.contacts .number__cards .first__number {
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 4px solid #76c000;
+}
+.contacts .number__cards .first__number p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .number__cards .first__number a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 7px 6px 7px;
+}
+.contacts .number__cards .second__number {
+  justify-content: space-between;
+  border-bottom: 4px solid #76c000;
+  display: flex;
+  margin-bottom: 16px;
+  margin-top: 20px;
+}
+.contacts .number__cards .second__number p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .number__cards .second__number a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 7px 6px 7px;
+}
+.contacts .number__cards .third__number {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+.contacts .number__cards .third__number p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .number__cards .third__number a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 7px 6px 7px;
+}
+.contacts .profiles {
+  margin-bottom: 120px;
+}
+.contacts .profiles .first__profile {
+  margin-left: 555px;
+}
+@media screen and (max-width: 426px) {
+  .contacts .profiles .first__profile {
+    margin-left: 13px;
+  }
+}
+.contacts .profiles .first__profile h3 {
+  margin-left: 132px;
+  color: #7fb731;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.contacts .profiles .first__profile .inside__texts {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 73px;
+  border-radius: 17px;
+  border: 4px solid #76c000;
+  padding: 18px 20px 20px 20px;
+  justify-content: space-between;
+}
+.contacts .profiles .first__profile .inside__texts p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .profiles .first__profile .inside__texts a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 17px 6px 15px;
+}
+.contacts .profiles .second__profile {
+  margin-left: 555px;
+}
+@media screen and (max-width: 426px) {
+  .contacts .profiles .second__profile {
+    margin-left: 13px;
+  }
+}
+.contacts .profiles .second__profile h3 {
+  margin-left: 135px;
+  color: #7fb731;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.contacts .profiles .second__profile .inside__texts {
+  display: flex;
+  width: 400px;
+  height: 73px;
+  border-radius: 17px;
+  border: 4px solid #76c000;
+  padding: 18px 20px 20px 20px;
+  justify-content: space-between;
+}
+.contacts .profiles .second__profile .inside__texts p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .profiles .second__profile .inside__texts a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 17px 6px 15px;
+}
+.contacts .profiles .third__profile {
+  margin-left: 555px;
+}
+@media screen and (max-width: 426px) {
+  .contacts .profiles .third__profile {
+    margin-left: 13px;
+  }
+}
+.contacts .profiles .third__profile h3 {
+  margin-left: 125px;
+  color: #7fb731;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.contacts .profiles .third__profile .inside__texts {
+  display: flex;
+  width: 400px;
+  height: 73px;
+  border-radius: 17px;
+  border: 4px solid #76c000;
+  padding: 18px 20px 20px 20px;
+  justify-content: space-between;
+}
+.contacts .profiles .third__profile .inside__texts p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .profiles .third__profile .inside__texts a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 17px 6px 15px;
+}
+.contacts .profiles .fourth__profile {
+  margin-left: 555px;
+}
+@media screen and (max-width: 426px) {
+  .contacts .profiles .fourth__profile {
+    margin-left: 13px;
+  }
+}
+.contacts .profiles .fourth__profile h3 {
+  color: #7fb731;
+  font-family: "Montserrat-Bold";
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 135px;
+}
+.contacts .profiles .fourth__profile .inside__texts {
+  display: flex;
+  width: 400px;
+  height: 73px;
+  border-radius: 17px;
+  border: 4px solid #76c000;
+  padding: 18px 20px 20px 20px;
+  justify-content: space-between;
+}
+.contacts .profiles .fourth__profile .inside__texts p {
+  font-family: "Montserrat-Medium";
+  font-size: 20px;
+}
+.contacts .profiles .fourth__profile .inside__texts a {
+  background: #76c000;
+  border-radius: 10px;
+  color: #fff;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100px;
+  padding: 2px 17px 6px 15px;
+}/*# sourceMappingURL=Contact.css.map */
